@@ -50,9 +50,9 @@ Note: The 'features_info.txt' file was referenced for measurement knowledge
 
 The data sets were merged in the following way:
 
-1. The 'X_train.txt' and 'X_test.txt' data sets were given proper column names by using the second column of 'features.txt' as the column names.
+(1.) The 'X_train.txt' and 'X_test.txt' data sets were given proper column names by using the second column of 'features.txt' as the column names.
 
-2. The measurements of interest were determined by using 'features_info.txt' and 'features.txt' as references. Only the mean and standard deviation for the domain and frequency signals in the X, Y, and Z directions for body acceleration, gravity acceleration, and jerk were selected. The features selected from both the 'X_train.txt' and 'X_test.txt' files were:
+(2.) The measurements of interest were determined by using 'features_info.txt' and 'features.txt' as references. Only the mean and standard deviation for the domain and frequency signals in the X, Y, and Z directions for body acceleration, gravity acceleration, and jerk were selected. The features selected from both the 'X_train.txt' and 'X_test.txt' files were:
 * tBodyAcc-mean()-X
 * tBodyAcc-mean()-Y
 * tBodyAcc-mean()-Z
@@ -102,11 +102,11 @@ The data sets were merged in the following way:
 * fBodyGyro-std()-Y
 * fBodyGyro-std()-Z
 
-3. The 'Y_test.txt' and 'Y_train.txt' Activities were joined with 'activity_labels.txt' to provide an activity nomenclature for each numerical activity idenitifier. The column was renamed to "Activity" and only that column was selected.
+(3.) The 'Y_test.txt' and 'Y_train.txt' Activities were joined with 'activity_labels.txt' to provide an activity nomenclature for each numerical activity idenitifier. The column was renamed to "Activity" and only that column was selected.
 
-4. The subjects in 'subject_test.txt' and the activities in 'Y_test.txt' were column binded to 'X_test.txt'.  'subject_train.txt' and 'Y_train.txt' were column binded to 'X_train.txt' so each row would have a corresponding subject and activity.
+(4.) The subjects in 'subject_test.txt' and the activities in 'Y_test.txt' were column binded to 'X_test.txt'.  'subject_train.txt' and 'Y_train.txt' were column binded to 'X_train.txt' so each row would have a corresponding subject and activity.
 
-5. The resulting data frames in 4. above were row binded to create a complete data set. 
+(5.) The resulting data frames in 4. above were row binded to create a complete data set. 
 
 The R code can be found at https://github.com/toyta/GettingCleaningData/blob/master/run_analysis.R
 

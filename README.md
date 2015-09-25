@@ -1,9 +1,9 @@
 ###run_analysis.R README 
+* Author: Tobie A. Toy
+* Date: 24 SEPT 2015
+* Getting and Cleaning Data Coursera Course
+
 ===========================================
--Author: Tobie A. Toy
--Getting and Cleaning Data Coursera Course
-
-
 ###Libraries Used
 1. plyr
 2. dplyr

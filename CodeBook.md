@@ -12,36 +12,36 @@ Summary: Background information for the data set and purpose of the underlying d
 Data files: Eight data files were used in the run_analysis study. Each of these were text files. 
 
 1. 'X_train.txt': All measurements for the set of training subjects
-Dimensions: 7352 rows x 561 columns
-Column Headers: None
+- Dimensions: 7352 rows x 561 columns
+- Column Headers: None
 
 2. 'Y_train.txt': The numerical activity descriptor corresponding to each row in X_train.
-Dimensions: 7352 rows X 1 column
-Column Headers: None
+- Dimensions: 7352 rows X 1 column
+- Column Headers: None
 
 3. 'X_test.txt': All measurements for the set of test subjects
-Dimensions: 2947 rows X 561 columns
-Column Headers: None
+- Dimensions: 2947 rows X 561 columns
+- Column Headers: None
 
 4. 'Y_test.txt': The numerical activity descriptor corresponding to each row in X_test. 
-Dimensions: 2947 rows X 1 column
-Column Headers: None
+- Dimensions: 2947 rows X 1 column
+- Column Headers: None
 
 5. 'subject_train.txt': The numerical subject descriptor corresponding to each row in X_train. 
-Dimensions: 7352 rows X 1 column
-Column Headers: None
+- Dimensions: 7352 rows X 1 column
+- Column Headers: None
 
 6. 'subject_test.txt': The numerical subject descriptor corresponding to each row in X_test. 
-Dimensions: 2947 rows X 1 column
-Column Headers: None
+- Dimensions: 2947 rows X 1 column
+- Column Headers: None
 
 7. 'activity_labels.txt': Reference table mapping the numerical activity descriptor to the activity nomenclature. 
-Dimensions: 6 rows X 2 columns
-Column Headers: None
+- Dimensions: 6 rows X 2 columns
+- Column Headers: None
 
 8. 'features.txt': Reference table mapping columns in X_test and X_train to the measurement nomenclature. 
-Dimesions: 561 rows X 2 columns
-Column Headers: None
+- Dimesions: 561 rows X 2 columns
+- Column Headers: None
 
 Note: The 'features_info.txt' file was referenced for measurement knowledge
 

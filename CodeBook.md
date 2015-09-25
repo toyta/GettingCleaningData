@@ -49,6 +49,7 @@ Note: The 'features_info.txt' file was referenced for measurement knowledge
 ###Variable Units
 * Total and body accelerations are measured in Gs (gravity of earth, 9.8 m/sec^2)
 * Gyroscope units are measured in radians/second
+
 For the list of variables in "Merging the Data" below, variables containing "Acc" are measured in Gs and those containing "Gyro" are rad/sec. 
 
 ================================================

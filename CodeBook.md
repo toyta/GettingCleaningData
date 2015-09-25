@@ -10,6 +10,7 @@
 Summary: Background information for the data set and purpose of the underlying data set can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones  The purpose of the run_analysis project was to take the raw data (found at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip ) and merge it into a tidy data set. The resulting tidy data set contains only the measurements of interest--means and standard deviations for both the time domain and frequency domain signals in the X, Y, and Z directions for body acceleration, gravity acceleration, and jerk. 
 
 Data files: Eight data files were used in the run_analysis study. Each of these were text files. 
+
 1. 'X_train.txt': All measurements for the set of training subjects
 Dimensions: 7352 rows x 561 columns
 Column Headers: None

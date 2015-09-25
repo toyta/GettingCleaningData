@@ -1,15 +1,14 @@
 ###run_analysis.R README 
 ===========================================
-
 Tobie A. Toy
-
 Getting and Cleaning Data Coursera Course
-24 SEPT 2015
+
 
 ###Libraries Used
-plyr
-dplyr
+1. plyr
+2. dplyr
 
+===========================================
 ###Merging of Data
 Using the data described in http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones, the run_analysis program merges the following datasets:
 

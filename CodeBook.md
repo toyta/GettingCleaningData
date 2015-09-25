@@ -13,7 +13,7 @@ Data files: Eight data files were used in the run_analysis study. Each of these 
 
 (1.) 'X_train.txt': All measurements for the set of training subjects
 - Dimensions: 7352 rows x 561 columns
-- Column Headers: None
+- Column Headers: None 
 
 (2.) 'Y_train.txt': The numerical activity descriptor corresponding to each row in X_train.
 - Dimensions: 7352 rows X 1 column
@@ -45,6 +45,11 @@ Data files: Eight data files were used in the run_analysis study. Each of these 
 
 Note: The 'features_info.txt' file was referenced for measurement knowledge
 
+================================================
+###Variable Units
+* Total and body accelerations are measured in Gs (gravity of earth, 9.8 m/sec^2)
+* Gyroscope units are measured in radians/second
+For the list of variables in "Merging the Data" below, variables containing "Acc" are measured in Gs and those containing "Gyro" are rad/sec. 
 
 ================================================
 ###Merging the Data
@@ -53,20 +58,20 @@ The data sets were merged in the following way:
 
 (1.) The 'X_train.txt' and 'X_test.txt' data sets were given proper column names by using the second column of 'features.txt' as the column names.
 
-(2.) The measurements of interest were determined by using 'features_info.txt' and 'features.txt' as references. Only the mean and standard deviation for the domain and frequency signals in the X, Y, and Z directions for body acceleration, gravity acceleration, and jerk were selected. The features selected from both the 'X_train.txt' and 'X_test.txt' files were:
-* tBodyAcc-mean()-X
-* tBodyAcc-mean()-Y
-* tBodyAcc-mean()-Z
-* tBodyAcc-std()-X
-* tBodyAcc-std()-Y
-* tBodyAcc-std()-Z
-* tGravityAcc-mean()-X
-* tGravityAcc-mean()-Y
-* tGravityAcc-mean()-Z
-* tGravityAcc-std()-X
-* tGravityAcc-std()-Y
-* tGravityAcc-std()-Z
-* tBodyAccJerk-mean()-X
+(2.) The measurements of interest were determined by using 'features_info.txt' and 'features.txt' as references. Only the mean and standard deviation for the domain and frequency signals in the X, Y, and Z directions for body acceleration, gravity acceleration, and jerk were selected. The variables selected from both the 'X_train.txt' and 'X_test.txt' files were:
+* tBodyAcc-mean()-X		
+* tBodyAcc-mean()-Y		
+* tBodyAcc-mean()-Z		
+* tBodyAcc-std()-X		
+* tBodyAcc-std()-Y		
+* tBodyAcc-std()-Z		
+* tGravityAcc-mean()-X		
+* tGravityAcc-mean()-Y		
+* tGravityAcc-mean()-Z		
+* tGravityAcc-std()-X		
+* tGravityAcc-std()-Y		
+* tGravityAcc-std()-Z		
+* tBodyAccJerk-mean()-X		
 * tBodyAccJerk-mean()-Y
 * tBodyAccJerk-mean()-Z
 * tBodyAccJerk-std()-X
